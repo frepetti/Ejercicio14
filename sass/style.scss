@@ -1,2 +1,53 @@
 $titulos: 'Crimson Text', serif;
 $textos: 'Source Sans Pro', sans-serif;
+
+div.col-md-12.texto.text-center {
+	color: white;
+	position: absolute;
+	top: 130px;
+}
+
+header {
+	.container {
+		.row {
+			.medio {
+				padding-top: 50px;
+			}
+
+			.navbar-default {
+				background: transparent;
+				border: 0;
+				box-shadow: inset 0 0 0;
+			}
+		}
+	}
+}
+
+.panel.panel-default {
+	border: 0;
+	box-shadow: 0 0 transparent;
+	.panel-heading {
+		background: transparent;
+		background-image: none;
+	}
+}
+
+.panel {
+	box-shadow: 0 0 0;
+
+}
+.panel-group {
+	.panel-default{
+		.panel-heading+{
+			.panel-collapse {
+				.panel-body{
+					border-top-color: transparent;
+
+					ul {
+						padding-left: 20px;
+					}
+				}
+			}
+		}
+	}
+}
